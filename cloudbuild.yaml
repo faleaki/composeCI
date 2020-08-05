@@ -14,7 +14,7 @@ steps:
 
 - id: "Rodando o ls"
   name: 'gcr.io/cloud-builders/docker'
-  args: ['exec','-t','app','ls','-l','/var/www/vendor/sebastian/type/src']
+  args: ['exec','-t','app','ls','-l','/var/www/vendor/sebastian/type']
 
 - id: "Rodando o composer"
   name: 'gcr.io/cloud-builders/docker'
